@@ -46,11 +46,11 @@ export async function GET(_req: Request, { params: { id } }) {
         style={font("Inter 300")}
       >
         <header tw="flex text-[36px] w-full">
-          <div tw="font-bold" style={font("Inter 600")}>
+          <div tw="font-bold" style={font("Inter 800")}>
             
           </div>
           <div tw="grow" />
-          <div tw="text-[28px]">wasim.co</div>
+          <div tw="text-[28px]"></div>
         </header>
 
         <main tw="flex grow pb-3 flex-col items-center justify-center">
@@ -67,7 +67,7 @@ export async function GET(_req: Request, { params: { id } }) {
             tw="mt-5 flex text-3xl text-gray-500"
             style={font("Roboto Mono 400")}
           >
-            {post.date} – {post.viewsFormatted} views
+            {post.date}
           </div>
         </main>
       </div>
