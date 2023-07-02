@@ -47,10 +47,10 @@ export async function GET(_req: Request, { params: { id } }) {
       >
         <header tw="flex text-[36px] w-full">
           <div tw="font-bold" style={font("Inter 600")}>
-            k20y
+            wasim-ullah
           </div>
           <div tw="grow" />
-          <div tw="text-[28px]">k20y.xyz</div>
+          <div tw="text-[28px]">wasim.co</div>
         </header>
 
         <main tw="flex grow pb-3 flex-col items-center justify-center">
