@@ -7,9 +7,10 @@ export function Footer() {
         
       </div>
       <div>        
-        <A target="_blank" href="https://cal.com/wasim/intro">
+        <a target="_blank" href="https://cal.com/wasim/intro"
+          className="inline-flex hover:bg-gray-200 dark:hover:bg-[#313131] active:bg-gray-300 dark:active:bg-[#242424] rounded-sm p-2 transition-[background-color]">
           Lets Talk
-        </A>
+        </a>
       </div>
     </footer>
   );
