@@ -21,8 +21,8 @@ export function Header() {
           target="_blank"
           className="inline-flex hover:bg-gray-200 dark:hover:bg-[#313131] active:bg-gray-300 dark:active:bg-[#242424] items-center p-2 rounded-sm transition-[background-color] whitespace-nowrap -mr-2"
         >
-          <TweetIcon style={{ marginRight: 4 }} /> Follow{" "}
-          <span className="hidden md:inline">&nbsp;me</span>
+          <TweetIcon style={{ marginRight: 4 }} /> {" "}
+          <span className="hidden md:inline"></span>
         </a>
       </nav>
     </header>
