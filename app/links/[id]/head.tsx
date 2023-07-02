@@ -14,8 +14,8 @@ export default function LinkHead({ params }: { params: { id: string } }) {
       <meta property="og:site_name" content="k20y" />
       <meta property="og:description" content={link.description} />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@k20y" />
-      <meta property="og:image" content={`https://k20y.xyz/og/${link.image}`} />
+      <meta name="twitter:site" content="@wasimxullah" />
+      <meta property="og:image" content={`https://wasim.co/og/${link.image}`} />
     </>
   );
 }
