@@ -57,7 +57,7 @@ export async function GET(_req: Request, { params: { id } }) {
           <div tw="flex">
             <div
               tw="bg-gray-100 p-8 text-7xl font-medium rounded-md text-center"
-              style={font("Inter 500")}
+              style={font("Inter 800")}
             >
               {post.title}
             </div>
